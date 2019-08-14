@@ -1,0 +1,121 @@
+/*============Nav==========*/
+@import url('https://fonts.google.com/specimen/Crimson+Text');
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Crimson Text', sans-serif;;
+  font-size:15px;
+}
+.navbar{
+  background-color: #002147 !important;
+}
+.navbar li a{
+  color: white !important;
+}
+.navbar li a:hover{
+  color: yellow !important;
+}
+/*=============carousel============*/
+.carousel-inner img{
+  width:100%;
+  height: 500px;
+}
+header{
+  display: flex;
+}
+.bg-logo{
+  flex:70%;
+}
+.box-search-icon{
+  text-align: center;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #002147;
+  z-index: 1;
+  list-style: none;
+  margin:6px 0 0 0;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.icon-bar{
+  text-align: right;
+  margin-bottom: 5px;
+  
+}
+.box-search-icon{
+  margin-bottom: 5px;
+}
+/*---section---*/
+#about-1{
+  display: flex;
+}
+aside{
+  flex: 60%;
+}
+.view-new{
+  display:flex;
+}
+.about-new{
+  float:left;
+  margin: 15px; 
+ 
+}
+.about-new img{
+  height:200px;
+}
+article{
+  flex:40%;
+}
+/*====event====*/
+.view-event{
+  margin-top:15px;
+  overflow: auto;
+}
+.date-time{
+  background-color: #002147;
+  color:white;
+  text-align: center;
+  text-transform: uppercase;
+  float: left;
+  padding:3px;
+  font-weight: bold;
+  margin :7px 3px 5px 0;
+}
+.new h2{
+  margin-top:10px;
+  margin-left: 15px;
+}
+.event h2{
+  margin-top:10px;
+}
+span{
+  display: block;
+}
+.view-date{
+  margin :7px 3px 5px 0;
+}
+/*======section2==*/
+.about{
+  margin: 10px 0 10px 10px;
+}
+footer{
+  margin-top:15px;
+  background-color: #002147;
+  color:white !important;
+}
+footer img{
+  float:left;
+  margin-right: 15px;
+}
+
+
+
+
